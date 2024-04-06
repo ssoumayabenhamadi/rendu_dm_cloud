@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Page de connexion</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { 
+            width: 300px; 
+            margin: auto; 
+            margin-top: 100px; 
+        }
+        input[type="text"], input[type="password"] { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            box-sizing: border-box; 
+        }
+        input[type="submit"] { 
+            width: 100%; 
+            padding: 10px; 
+            background-color: #007bff; 
+            color: white; 
+            cursor: pointer; 
+        }
+        input[type="submit"]:hover { 
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+
+<form action="auth" method="post">
+    <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+    <input type="password" name="password" placeholder="Mot de passe" required>
+    <input type="submit" value="Connexion">
+</form>
+
+</body>
+</html>

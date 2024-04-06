@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page d'accueil</title>
+</head>
+<body>
+    <h1>Bienvenue <span id="username"></span>!</h1>
+    <p>Crédits : <span id="credits"></span></p>
+    <p>VM : <span id="vm"></span></p>
+    <p>Choisissez un système d'exploitation pour démarrer :</p>
+    <select id="osOptions"></select>
+    <button id="createVmBtn">Créer VM</button>
+    <script>
+        document.getElementById('createVmBtn').addEventListener('click', function() {
+            // Redirection vers le serveur pour créer la VM
+            window.location.href = '/createvm';
+        });
+    </script>
+</body>
+</html>

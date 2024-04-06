@@ -1,0 +1,26 @@
+[
+  {
+      "username": "user1",
+      "password": "password1",
+      "role": "user",
+      "credits": 0,
+      "vm": "VM1",
+      "osOptions": ["Ubuntu", "Windows 10"]
+  },
+  {
+      "username": "user2",
+      "password": "password2",
+      "role": "admin",
+      "credits": 10,
+      "vm": "VM2",
+      "osOptions": ["Ubuntu", "Debian"]
+  },
+  {
+      "username": "user3",
+      "password": "password3",
+      "role": "superAdmin",
+      "credits": 20,
+      "vm": "VM3",
+      "osOptions": ["Fedora", "Windows 11"]
+  }
+]

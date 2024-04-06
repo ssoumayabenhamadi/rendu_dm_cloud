@@ -1,0 +1,20 @@
+{
+    "virtualMachines": [
+        {
+            "id": 1,
+            "os": "windows",
+            "name": "windowsVm"
+        },
+        {
+            "id": 2,
+            "os": "ubuntu",
+            "name": "ubuntuVm"
+        },
+        {
+            "id": 3,
+            "os": "debian",
+            "name": "debianVm"
+
+        }
+    ]
+}
